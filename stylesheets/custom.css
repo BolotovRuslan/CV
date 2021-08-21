@@ -1,0 +1,74 @@
+.contacts {
+  word-spacing: 1em;
+}
+
+.skills {
+  margin-bottom: 3em;
+}
+
+.work {
+  line-height: 1.2em;
+}
+
+.person_info {
+  margin-top: 3em;
+  line-height: 1.2em;
+}
+
+.experience {
+  margin-top: 3.5em;
+  line-height: 1.5em;
+}
+
+.portfolio {
+  word-spacing: 0.5em;
+  margin-top: 7em;
+  line-height: 1.2em;
+}
+
+.education {
+  word-spacing: 0.5em;
+  margin-top: 2em;
+  line-height: 1.2em;
+}
+
+.courses {
+  margin-top: 3.5em;
+  line-height: 1.2em;
+}
+
+.addition {
+  margin-top: 3em;
+  line-height: 1.2em;
+  margin-bottom: 2em;
+}
+
+.qualities {
+  margin-top: 3em;
+  line-height: 1.2em;
+  margin-bottom: 5em;
+}
+
+.color_fragment {
+  color: dimgrey;
+}
+
+p {
+  margin-bottom: 2%;
+}
+
+h3, h5 {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+  .contacts, .skills, .work, .person_info, .experience, .portfolio, .education, .courses, .addition, .qualities {
+    margin-top: 3em;
+    margin-bottom: 0;
+  }
+
+  .one-half.column {
+    width: 100%;
+    margin-left: 0;
+  }
+}
